@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>🌡 Temperature Converter</h1>
+            <p class="subtitle">
+                Convert temperatures instantly between Celsius, Fahrenheit and Kelvin.
+            </p>
+
+            <!-- Input -->
+            <div class="input-group">
+                <label>Enter Temperature</label>
+                <input type="number" id="temperature" placeholder="Enter value">
+            </div>
+
+            <!-- Unit -->
+            <div class="input-group">
+                <label>Select Unit</label>
+
+                <select id="unit">
+                    <option value="celsius">Celsius (°C)</option>
+                    <option value="fahrenheit">Fahrenheit (°F)</option>
+                    <option value="kelvin">Kelvin (K)</option>
+                </select>
+            </div>
+
+            <!-- Button -->
+            <button id="convertBtn">
+                Convert
+            </button>
+
+            <!-- Error Message -->
+            <p id="error" class="error"></p>
+
+            <!-- Results -->
+            <div class="result-box">
+
+                <div class="result-card">
+                    <h3>Celsius</h3>
+                    <p id="celsiusResult">-- °C</p>
+                </div>
+
+                <div class="result-card">
+                    <h3>Fahrenheit</h3>
+                    <p id="fahrenheitResult">-- °F</p>
+                </div>
+
+                <div class="result-card">
+                    <h3>Kelvin</h3>
+                    <p id="kelvinResult">-- K</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
