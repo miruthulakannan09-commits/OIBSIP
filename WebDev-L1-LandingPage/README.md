@@ -1,25 +1,26 @@
-# Landing Page
+# Portfolio Website
 
-A responsive and visually appealing landing page developed as part of the **Oasis Infobyte Web Development Internship – Task 1**.
+Oasis Infobyte Web Development Internship - Task 2
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
+- JavaScript
+
+## Project Description
+
+A responsive personal portfolio website created as part of the Oasis Infobyte Web Development Internship.
 
 ## Features
 
-- Responsive landing page design
-- Clean and modern user interface
-- Attractive layout and styling
-- Image integration
-- User-friendly design
+- Responsive design
+- About section
+- Skills section
+- Projects section
+- Contact section
+- Interactive elements using JavaScript
 
-## Project Structure
+## How to Run
 
-```text
-WebDev-L1-LandingPage/
-├── README.md
-├── index.html
-├── style.css
-└── water.png
+Open `index.html` in a web browser.
